@@ -1,5 +1,7 @@
 # ZMK Module for BMP Boost
 
+## west.yaml
+
 ```yaml
 manifest:
   remotes:
@@ -10,4 +12,12 @@ manifest:
   projects:
     - name: zmk-component-bmp-boost
       remote: sekigon-gonnoc
+```
+
+## build.yaml
+
+```yaml
+include:
+  - board: bmp_boost
+    shield: tester_pro_micro
 ```
