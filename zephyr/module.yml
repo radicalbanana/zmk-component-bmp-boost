@@ -1,0 +1,6 @@
+name: zmk-component-bmp-boost
+build:
+  cmake: .
+  kconfig: Kconfig
+  settings:
+    board_root: .
